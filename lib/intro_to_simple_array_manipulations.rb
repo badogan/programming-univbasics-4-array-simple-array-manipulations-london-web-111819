@@ -33,3 +33,12 @@ def shift_with_args(m_Array,m_count)
   end
   return m_Array
 end 
+
+def using_concat(1st_Array,2nd_Array)
+  1st_Array.concat(2nd_Array)
+end
+
+def using_insert(m_Array,new_element)
+  m_Array[4]=new_element
+end
+
