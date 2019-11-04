@@ -52,3 +52,8 @@ end
 
 def using_delete(m_Array,m_String)
   m_Array.delete(m_String)
+end
+
+def using_delet_at(m_Array,m_Index)
+  m_Array.delete_at(m_Index)
+end
