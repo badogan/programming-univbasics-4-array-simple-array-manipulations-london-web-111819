@@ -14,6 +14,6 @@ def pop_with_args(m_Array,m_count)
   if m_count <= 0 
     return
   end
-  
+  m_count.do
   m_Array.
 end
