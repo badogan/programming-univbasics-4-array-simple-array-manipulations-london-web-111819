@@ -15,5 +15,6 @@ def pop_with_args(m_Array,m_count)
     return
   end
   m_count.do
-  m_Array.
+    m_Array.pop
+  
 end
