@@ -42,3 +42,14 @@ def using_insert(m_Array,new_element)
   m_Array[4]=new_element
 end
 
+def using uniq(m_Array)
+  m_Array.uniq
+end
+
+def usning_flatten(multiple_Arrays_in_one_Array)
+  multiple_Arrays_in_one_Array.usning_flatten
+end
+
+def using_delete(m_Array,m_String)
+  index_to_be_deleted = m_Array.index(m_String)
+  m_Array[index_to_be_deleted]
