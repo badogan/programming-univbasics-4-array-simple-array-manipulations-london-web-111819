@@ -51,5 +51,4 @@ def usning_flatten(multiple_Arrays_in_one_Array)
 end
 
 def using_delete(m_Array,m_String)
-  index_to_be_deleted = m_Array.index(m_String)
-  m_Array[index_to_be_deleted]
+  m_Array.delete(m_String)
